@@ -20,7 +20,7 @@ crbhashmap is a lightweight hash map implementation in C language. This project 
    - Navigate to the directory: `cd c-rb-hash-map`
 
 3. **Integration**:
-   - Include `"clib.h", "xxhash.h", "crbhashmap.h"` in your source files.
+   - Include `"crbhashmap.h"` in your source files.
    - Link with `"xxhash.c", "crbhashmap.c"` during compilation.
 
 4. **Example**:
