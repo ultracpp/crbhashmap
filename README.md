@@ -25,9 +25,9 @@ crbhashmap is a lightweight hash map implementation in C language. This project 
 
 4. **Example**:
    ```c
-	#include "crbhashmap.h"
 	#include <stdio.h>
 	#include "clib.h"
+	#include "crbhashmap.h"
 
 	void* Create_int()
 	{
