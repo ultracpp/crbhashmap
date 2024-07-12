@@ -16,12 +16,12 @@ crbhashmap is a lightweight hash map implementation in C language. This project 
    - Standard C libraries (`stdio.h`, `stdlib.h`, `string.h`)
 
 2. **Installation**:
-   - Clone the repository: `git clone https://github.com/yourusername/c-rb-hash-map.git`
+   - Clone the repository: `git clone https://github.com/ultracpp/crbhashmap`
    - Navigate to the directory: `cd c-rb-hash-map`
 
 3. **Integration**:
-   - Include `"crbhashmap.h"` in your source files.
-   - Link with `"crbhashmap.c"` during compilation.
+   - Include `"clib.h", "xxhash.h", "crbhashmap.h"` in your source files.
+   - Link with `"xxhash.c", "crbhashmap.c"` during compilation.
 
 4. **Example**:
    ```c
